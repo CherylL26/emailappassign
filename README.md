@@ -1,4 +1,4 @@
-This is the server side! I hosted it on Heroku. All my code is in app.py.
+I hosted it on Heroku. All my code is in app.py.
 
 You'll probably want to use Postman to send the POST request. The url is https://emailappassign.herokuapp.com/
 
