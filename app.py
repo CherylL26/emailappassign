@@ -8,7 +8,7 @@ mailconf = {
     "MAIL_USE_TLS": True,
     "MAIL_USE_SSL": False,
     "MAIL_USERNAME": 'webdevtesting24@gmail.com',
-    "MAIL_PASSWORD": 'pferxpocapaqriom'
+    "MAIL_PASSWORD": 'njvmbwyamollqmxw'
 }
 app.config.update(mailconf)
 mail = Mail(app)
