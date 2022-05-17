@@ -19,10 +19,9 @@ def main():
     to = data['to']
     subject = data['subject']
     body = data['body']
-    msg = Message('''{}
-    
-    {}'''.format(subject, body), sender=app.config.get("MAIL_USERNAME"), recipients=[to])
-    mail.send(msg)
+    msg = Message(subject, sender=app.config.get("MAIL_USERNAME"), recipients=[to])
+    msg.body = body
+    # mail.send(msg)
     return '''
     to: {}
     subject: {}
